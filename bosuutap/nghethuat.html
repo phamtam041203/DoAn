@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <script src="/JavaScript/js.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+
+</head>
+<body>
+<header>
+    <nav>
+      <ul>
+        <li class="logo"><a href="/index.html"><img src="/image/logo.png" alt="logo"></a></li>
+        <li class="collection">
+          <a>Bộ sưu tập ｖ</a>
+          <div>
+            <ul class="collection-options">
+              <li><a href="/bosuutap/nghethuat.html">Nghệ Thuật Tối Giản</a></li>
+              <li><a href="/bosuutap/dongianmasang.html">Đơn Giản Mà Sang</a></li>
+              <li><a href="/bosuutap/styleofnostyle.html">The Style of No Style</a></li>
+              <li><a href="/bosuutap/space.html">Space</a></li>
+              <li><a href="/bosuutap/phukienthoitrang.html">Phụ Kiện Thời Trang</a></li>
+            </ul>
+          </div>
+        </li>        
+        <li><a href="/sale7ngay/sale7ngay.html">Sale 7 ngày</a></li>
+        <li><a href="/sanphammoi/sanphammoi.html">Mở bán sản phẩm mới</a></li>
+        <li class="collection"><a>Áo thun ｖ</a>
+          <div>
+            <ul class="collection-options">
+              <li><a href="/aothun/aocotron.html">Áo cổ tròn form rộng</a></li>
+              <li><a href="/aothun/aothun3lo.html">Áo thun 3 lỗ  </a></li>
+              <li><a href="/aothun/aothunsweater.html">Áo thun Sweater</a></li>
+              <li><a href="/aothun/aothuntoigian.html">Áo thun tối giản</a></li>
+              <li><a href="/aothun/aothuncotru.html">Áo thun cổ trụ</a></li>
+            </ul>
+          </div>
+        </li>   
+        <div class="search-container">
+          <div class="search-icon" onclick="toggleSearchBar()">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="search-bar" id="search-bar">
+            <input type="text" id="search-input" placeholder="Nhập sản phẩm cần tìm">
+            <button id="search-button" onclick="search()">Tìm kiếm</button>
+          </div>
+        </div>
+          <a href="#" class="user-icon">
+            <i class="fas fa-user"></i>
+          </a>
+          
+          <a href="#" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        
+      </ul>
+
+    </nav>
+    
+  </header>
+  <div class="container-fluid">
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M13(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M13(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 1</h1>
+          <p>Giá: $39.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M11(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M11(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 2</h1>
+          <p>Giá: $32.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/Ver20(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/Ver20(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 3</h1>
+          <p>Giá: $29.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/HG17(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/HG17(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 4</h1>
+          <p>Giá: $51.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M4(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M4(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 5</h1>
+          <p>Giá: $100</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/VER5(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/VER5(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 6</h1>
+          <p>Giá: $39.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M10(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M10(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 7</h1>
+          <p>Giá: $89.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M4.1(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M4.1(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 8</h1>
+          <p>Giá: $99.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M4.2(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M4.2(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 9</h1>
+          <p>Giá: $69.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="/bosuutap/image/nghethuat/M11.1(1).jpg" alt="Ảnh 1" class="default-image">
+      <img src="/bosuutap/image/nghethuat/M11.2(2).jpg" alt="Ảnh 2" class="hover-image">
+      <div class="image-caption">
+        <div class="caption-content">
+          <h1>Sản phẩm 10</h1>
+          <p>Giá: $49.99</p>
+          <a href="#" class="buy-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="vanlang">
+        <p>Văn Lang University.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
