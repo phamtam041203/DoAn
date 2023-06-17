@@ -215,7 +215,7 @@ header nav ul li:hover::after {
 @keyframes backgroundAnimation {
   0% { background-image: url('../image/hinhnen.jpg'); }
   33.33% { background-image: url('../image/nen1.jpg'); }
-  66.66% { background-image: url('../image/nen2.avif'); }
+  66.66% { background-image: url('../image/nen2.jpg'); }
   100% { background-image: url('../image/hinhnen.jpg'); }
 }
 
