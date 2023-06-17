@@ -9,3 +9,20 @@ $(document).ready(function(){
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var form = document.querySelector("form");
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      showSuccessMessage();
+    });
+  });
+  
+  function showSuccessMessage() {
+    var successBox = document.getElementById("success-box");
+    var successMessage = document.getElementById("success-message");
+    
+    successMessage.innerHTML = "Đăng ký thành công!";
+    successBox.style.display = "block";
+  }
+  

@@ -213,10 +213,10 @@ header nav ul li:hover::after {
 }
 
 @keyframes backgroundAnimation {
-  0% { background-image: url('/image/hinhnen.jpg'); }
-  33.33% { background-image: url('/image/nen1.jpg'); }
-  66.66% { background-image: url('/image/nen2.avif'); }
-  100% { background-image: url('/image/hinhnen.jpg'); }
+  0% { background-image: url('../image/hinhnen.jpg'); }
+  33.33% { background-image: url('../image/nen1.jpg'); }
+  66.66% { background-image: url('../image/nen2.avif'); }
+  100% { background-image: url('../image/hinhnen.jpg'); }
 }
 
 .hero {
@@ -329,6 +329,7 @@ footer {
 
 .vanlang p {
   margin: 0;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -414,4 +415,46 @@ h1 {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+/* styles.css */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.social-icons .fb-icon {
+  background-color: #3b5998; /* Màu đặc trưng của Facebook */
+  color: #fff; /* Màu chữ trắng */
+}
+
+.social-icons .gmail-icon {
+  background-color: #dd4b39; /* Màu đặc trưng của Gmail */
+  color: #fff; /* Màu chữ trắng */
+}
+
+
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-container img {
+  width: 150px; /* Điều chỉnh kích thước ảnh */
+  height: auto;
 }
