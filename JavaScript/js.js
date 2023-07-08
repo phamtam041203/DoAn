@@ -57,3 +57,8 @@ function toggleSearchBar() {
   // Tự động chuyển ảnh sau một khoảng thời gian
   setInterval(nextImage, 5000); // Điều chỉnh thời gian chuyển ảnh (ms)
   
+  function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+  }
+  

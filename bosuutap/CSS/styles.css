@@ -3,13 +3,13 @@
 .container-fluid {
   text-align: center;
   color: rgb(225, 151, 203);
-  padding: 20px;
+  padding: 10px;
   background-color: bisque;
 }
 
 .image-container {
   position: relative;
-  width: 160px;
+  width: 100px;
   height: 215px;
   overflow: hidden;
 }
@@ -47,6 +47,7 @@
   position: relative;
   margin-top: 20px;
 }
+
 
 .image-container:hover {
   transform: translateY(-5px);
