@@ -1,4 +1,11 @@
 
+.breadcrumb {
+  background-color: #7d3434; /* Màu xám nhạt */
+  display: inline-block;
+  transform: translateX(25%); /* Dịch phải 1/4 màn hình */
+}
+
+
 
 .container-fluid {
   text-align: center;
@@ -39,14 +46,19 @@
 .image-container {
   display: inline-block;
   background-color: #fff;
-  padding: 240px;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   text-align: center;
   position: relative;
   margin-top: 20px;
+  box-sizing: border-box;
+  width: 400px; /* Đặt kích thước khung theo ý muốn */
+  height: 600px; /* Đặt kích thước khung theo ý muốn */
 }
+
+
+
 
 
 .image-container:hover {
