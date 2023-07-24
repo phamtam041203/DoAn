@@ -62,3 +62,4 @@ function toggleSearchBar() {
     menu.classList.toggle('active');
   }
   
+  
